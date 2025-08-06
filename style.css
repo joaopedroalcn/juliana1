@@ -17,7 +17,7 @@ body {
   margin: 2em auto 1em auto;
   box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
   border-radius: 8px;
-  overflow: hidden;
+  overflow: visible;
   background: #fff;
   position: relative;
 }
@@ -25,8 +25,8 @@ body {
 .canva-embed {
   display: block;
   width: 100%;
-  aspect-ratio: 350/4305;
   min-height: 400px;
+  height: auto;
   border: none;
   background: #fff;
 }
@@ -37,9 +37,14 @@ body {
     margin: 0.5em 0;
     border-radius: 0;
     box-shadow: none;
+    overflow-x: auto;
   }
   .canva-embed {
     min-height: 200px;
+    width: 100vw;
+    height: auto;
+    max-height: none;
+    aspect-ratio: unset;
   }
 }
 body {
