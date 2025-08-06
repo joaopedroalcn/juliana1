@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="scrollbar-overlay">
+      <input
+        type="range"
+        min="0"
+        max="100"
+        value="0"
+        class="scrollbar-range"
+        id="scrollbarRange"
+      />
+    </div>
     <div
       style="
         position: relative;
@@ -41,5 +51,23 @@
       </iframe>
     </div>
     <div class="scroll-helper"></div>
+    <script>
+      const scrollbar = document.getElementById("scrollbarRange");
+      scrollbar.addEventListener("input", function () {
+        const maxScroll = document.body.scrollHeight - window.innerHeight;
+        window.scrollTo({
+          top: (scrollbar.value / 100) * maxScroll,
+          behavior: "auto",
+        });
+      });
+      window.addEventListener("scroll", function () {
+        const maxScroll = document.body.scrollHeight - window.innerHeight;
+        if (maxScroll > 0) {
+          scrollbar.value = (window.scrollY / maxScroll) * 100;
+        } else {
+          scrollbar.value = 0;
+        }
+      });
+    </script>
   </body>
 </html>

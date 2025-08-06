@@ -1,3 +1,24 @@
+/* Barra de rolagem fixa sobre o iframe */
+.scrollbar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 8px 0 2px 0;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+}
+.scrollbar-range {
+  width: 90vw;
+  max-width: 500px;
+  accent-color: #ff7c4d;
+  height: 8px;
+  border-radius: 8px;
+  pointer-events: auto;
+}
 /* Espaço extra para forçar scroll da página mesmo com iframe 100vh */
 .scroll-helper {
   width: 100vw;
