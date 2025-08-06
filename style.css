@@ -1,3 +1,9 @@
+/* Espaço extra para forçar scroll da página mesmo com iframe 100vh */
+.scroll-helper {
+  width: 100vw;
+  height: 50vh;
+  background: transparent;
+}
 /* Reset básico */
 * {
   margin: 0;
