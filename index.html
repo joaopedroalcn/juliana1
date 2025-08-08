@@ -5,69 +5,405 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Julliana Aragão - Terapia</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="scrollbar-overlay">
-      <input
-        type="range"
-        min="0"
-        max="100"
-        value="0"
-        class="scrollbar-range"
-        id="scrollbarRange"
-      />
-    </div>
-    <div
-      style="
-        position: relative;
-        width: 100%;
-        height: 0;
-        padding-top: 1230%;
-        padding-bottom: 0;
-        box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
-        margin-top: 1.6em;
-        margin-bottom: 0.9em;
-        overflow: hidden;
-        border-radius: 8px;
-        will-change: transform;
-      "
-    >
-      <iframe
-        loading="lazy"
-        style="
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          top: 0;
-          left: 0;
-          border: none;
-          padding: 0;
-          margin: 0;
-        "
-        src="https://www.canva.com/design/DAGVuy23jMI/jgCUcZ5Zd0660ZF3ecGDFw/view?embed&hideToolbar=true"
-        allowfullscreen="allowfullscreen"
-        allow="fullscreen"
-      >
-      </iframe>
-    </div>
-    <div class="scroll-helper"></div>
-    <script>
-      const scrollbar = document.getElementById("scrollbarRange");
-      scrollbar.addEventListener("input", function () {
-        const maxScroll = document.body.scrollHeight - window.innerHeight;
-        window.scrollTo({
-          top: (scrollbar.value / 100) * maxScroll,
-          behavior: "auto",
-        });
-      });
-      window.addEventListener("scroll", function () {
-        const maxScroll = document.body.scrollHeight - window.innerHeight;
-        if (maxScroll > 0) {
-          scrollbar.value = (window.scrollY / maxScroll) * 100;
-        } else {
-          scrollbar.value = 0;
-        }
-      });
-    </script>
+    <header>
+      <div class="faixa-laranja"></div>
+      <div>
+        <img src="/assets/055F6362-58BC-4713-BB66-65328F1841CB.webp" alt="" />
+      </div>
+      <section class="container-grid-3">
+        <section>
+          <div class="container-texto-laranja">
+            <p>
+              Liberte-se da dependência emocional e insuficiência em
+              relacionamentos, fortalecendo sua
+              <b>independência e autoestima.</b>
+            </p>
+          </div>
+          <div class="container-background-branco">
+            <p>
+              Descubra como cultivar sua felicidade completa ao reconquistar sua
+              autonomia e confiança em si mesma.
+            </p>
+          </div>
+        </section>
+        <div class="image1-ela">
+          <img src="/assets/F02DCD52-8E5D-47B7-9E81-1B1125173884.webp" alt="" />
+        </div>
+        <section>
+          <div class="container-iframeyoutube">
+            <p class="text-video">Aula 01</p>
+            <iframe
+              width="100%"
+              src="https://www.youtube.com/embed/ewYe4sR_Hsg"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <p class="text-video2">Clique e assista Gratuitamente</p>
+          </div>
+        </section>
+      </section>
+    </header>
+    <main>
+      <section class="container-section2">
+        <div class="container-button">
+          <button>Quero Participar</button>
+        </div>
+
+        <div>
+          <h2>
+            Minhas alunas <b>livres</b> da <br />
+            dependência emocional
+          </h2>
+          <img src="/assets/417F27B0-7E71-40B9-BFD9-98BE1921D7CE.jpeg" alt="" />
+        </div>
+      </section>
+
+      <section class="container-section3">
+        <div class="container-button">
+          <button>Quero Mudar minha história</button>
+        </div>
+
+        <h2>
+          Já sofreu por amor ao <br />
+          ponto de se perder?
+        </h2>
+        <div>
+          <img src="assets/8BE61B4E-3691-4661-9D04-4B776B1AA2A1.jpeg" alt="" />
+        </div>
+      </section>
+
+      <div class="container-button section-button1">
+        <button>Quero Participar</button>
+      </div>
+      <section class="section-dependencia">
+        <div class="section-dependencia-card">
+          <div class="section-dependencia-title">
+            <span class="section-dependencia-line"></span>
+            <h2>
+              Como saber se sou
+              <span class="section-dependencia-highlight">emocionalmente</span>
+              dependente?
+            </h2>
+            <span class="section-dependencia-line"></span>
+          </div>
+          <ul class="section-dependencia-list">
+            <li>
+              <span class="section-dependencia-icon">✔️</span> Sensação de vazio
+              ao ficar sozinha.
+            </li>
+            <li>
+              <span class="section-dependencia-icon">✔️</span> Sentir-se
+              aprisionada em relacionamentos que causam mais dor do que alegria.
+            </li>
+            <li>
+              <span class="section-dependencia-icon">✔️</span> Busca incessante
+              pela aprovação do outro.
+            </li>
+            <li>
+              <span class="section-dependencia-icon">✔️</span> Sente que sua
+              vida irá acabar sem a pessoa.
+            </li>
+            <li>
+              <span class="section-dependencia-icon">✔️</span> Sempre está à
+              disposição da pessoa e deixa suas prioridades de lado.
+            </li>
+            <li>
+              <span class="section-dependencia-icon">✔️</span> Medo constante de
+              ser abandonada ou rejeitada.
+            </li>
+            <li>
+              <span class="section-dependencia-icon">✔️</span> Falta de
+              identidade própria fora do relacionamento.
+            </li>
+            <li>
+              <span class="section-dependencia-icon">✔️</span> Autoestima
+              abalada, falta de confiança em suas próprias decisões e valor.
+            </li>
+            <li>
+              <span class="section-dependencia-icon">✔️</span> Seu humor muda
+              sempre que a pessoa não faz o que você quer.
+            </li>
+            <li>
+              <span class="section-dependencia-icon">✔️</span> Sente ciúmes
+              excessivo.
+            </li>
+            <li>
+              <span class="section-dependencia-icon">✔️</span> É stalker da
+              pessoa, está sempre monitorando o perfil dela nas redes sociais.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <div class="container-button section-button2">
+        <button>Quero Mudar minha história</button>
+      </div>
+
+      <section class="section-depoimento">
+        <div class="depoimento-balao depoimento-balao-top">
+          Às vezes o que você acha que é excesso de amor,<br />muitas vezes é
+          dependência emocional.
+        </div>
+        <div class="depoimento-conteudo">
+          <div class="depoimento-textos">
+            <div class="depoimento-titulo">
+              Eu também <span class="depoimento-destaque">já fui</span
+              ><br />dependente emocional
+            </div>
+            <div class="depoimento-balao depoimento-balao-meio">
+              Vivia na dependência de uma declaração de amor, mesmo que a
+              situação não fosse boa. Precisava muito da validação da pessoa,
+              meu humor mudava de acordo com o humor dele, então se ele tava bem
+              eu tava bem.
+            </div>
+            <div
+              class="depoimento-balao depoimento-balao-baixo depoimento-mobile-hide"
+            >
+              Tínhamos
+              <span class="depoimento-destaque2">muitas brigas</span> por ciúmes
+              e eu não gostava das amizades dele. Eu vivia doente, emagreci
+              muito e cheguei a pesar
+              <span class="depoimento-destaque2">44kg</span>.<br /><br />Os
+              maiores medos da minha vida era dele me trair e de me abandonar
+              para sempre. Mas eu venci a dependência emocional e você também
+              pode!
+            </div>
+          </div>
+          <div class="depoimento-imagens">
+            <img
+              class="depoimento-img-pessoa"
+              src="/assets/7C119A76-DE94-4321-A264-4457B4368556.webp"
+              alt="Depoimento 1"
+            />
+            <div
+              class="depoimento-balao depoimento-balao-baixo depoimento-mobile-show"
+            >
+              Tínhamos
+              <span class="depoimento-destaque2">muitas brigas</span> por ciúmes
+              e eu não gostava das amizades dele. Eu vivia doente, emagreci
+              muito e cheguei a pesar
+              <span class="depoimento-destaque2">44kg</span>.<br /><br />Os
+              maiores medos da minha vida era dele me trair e de me abandonar
+              para sempre. Mas eu venci a dependência emocional e você também
+              pode!
+            </div>
+          </div>
+        </div>
+        <div class="depoimento-linha"></div>
+      </section>
+      <section class="section-metodo">
+        <div class="metodo-bg-linha"></div>
+        <div class="metodo-content">
+          <div class="metodo-info">
+            <p class="metodo-chamada">Conheça o método</p>
+            <img
+              src="assets/47CFBE8C-CE6E-4133-96EF-1199E95E1D6B.jpeg"
+              alt=""
+            />
+
+            <hr class="metodo-linha" />
+            <p class="metodo-desc">
+              Onde você vai explorar as raízes da <b>dependência emocional</b>,
+              desenvolverá uma mentalidade forte e aprenderá a desatar nós que
+              te aprisionam num relacionamento atual ou passado onde tem mais
+              dor que felicidade.
+            </p>
+            <div class="metodo-paraquem">
+              <h3>Para quem é o método ?</h3>
+              <ul>
+                <li>
+                  <span class="metodo-icon">✔️</span> Quem busca reconstruir a
+                  autoestima abalada.
+                </li>
+                <li>
+                  <span class="metodo-icon">✔️</span> Está cansada de relações
+                  que a diminui.
+                </li>
+                <li>
+                  <span class="metodo-icon">✔️</span> Quer deixar de sofrer por
+                  alguém.
+                </li>
+                <li>
+                  <span class="metodo-icon">✔️</span> Sente ciúmes exagerados.
+                </li>
+                <li>
+                  <span class="metodo-icon">✔️</span> Quer conquistar uma vida
+                  emocionalmente independente.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="metodo-img-wrapper">
+            <img
+              class="metodo-img-pessoa"
+              src="/assets/6E61E124-107A-48B2-B8E0-18BFA30E31C7_1_201_a.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section-aprender">
+        <div class="aprender-topo">
+          <h2 class="aprender-titulo">
+            O que você vai aprender<br />com o <span>Desatando Nós?</span>
+          </h2>
+          <ul class="aprender-lista">
+            <li>
+              <span class="aprender-icon">✔️</span> Identificar padrões de
+              dependência emocional.
+            </li>
+            <li>
+              <span class="aprender-icon">✔️</span> Desenvolver autoconhecimento
+              e autoaceitação.
+            </li>
+            <li>
+              <span class="aprender-icon">✔️</span> Estabelecer limites
+              saudáveis em relacionamentos.
+            </li>
+            <li>
+              <span class="aprender-icon">✔️</span> Reconhecer sua identidade e
+              fortalecer sua autoestima.
+            </li>
+            <li>
+              <span class="aprender-icon">✔️</span> Criar relacionamentos
+              enriquecedores e equilibrados.
+            </li>
+            <li>
+              <span class="aprender-icon">✔️</span> Abraçar a liberdade de viver
+              uma vida autêntica e independente.
+            </li>
+          </ul>
+        </div>
+        <div class="aprender-modulos-bg">
+          <h3 class="aprender-modulos-titulo">Conheça os módulos do curso</h3>
+          <div class="aprender-modulos-grid">
+            <div class="modulo-card">
+              <div class="modulo-icone">
+                <img
+                  src="/assets/82245EFF-BA87-4AD8-9663-CC1AB51DF54D.png"
+                  alt=""
+                />
+              </div>
+              <div class="modulo-titulo">
+                Maturidade emocional: Reconfrote-se
+              </div>
+            </div>
+            <div class="modulo-card">
+              <div class="modulo-icone">
+                <img
+                  src="/assets/029669F5-1D4D-44F8-8DEB-CA1651A37DE1_4_5005_c.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="modulo-titulo">Introdução</div>
+            </div>
+            <div class="modulo-card">
+              <div class="modulo-icone">
+                <img
+                  src="/assets/408F744B-6697-456B-826B-B715CD6C77F3.png"
+                  alt=""
+                />
+              </div>
+              <div class="modulo-titulo">Raízes da insegurança</div>
+            </div>
+            <div class="modulo-card">
+              <div class="modulo-icone">
+                <img
+                  src="/assets/22B3A25A-C3FD-4CD7-BBB0-CFC3E29FC578.png"
+                  alt=""
+                />
+              </div>
+              <div class="modulo-titulo">Dependência Emocional</div>
+            </div>
+            <div class="modulo-card">
+              <div class="modulo-icone">
+                <img
+                  src="/assets/CF4F6C5D-E3AE-40B5-86D0-B93AE38F1BFE.png"
+                  alt=""
+                />
+              </div>
+              <div class="modulo-titulo">Em busca de validação</div>
+            </div>
+            <div class="modulo-card">
+              <div class="modulo-icone">
+                <img
+                  src="/assets/7B9DC9E3-B846-4378-8063-42361FC73AE3.png"
+                  alt=""
+                />
+              </div>
+              <div class="modulo-titulo">
+                Relacionamentos instáveis. Você sente ciúmes demais?
+              </div>
+            </div>
+            <div class="modulo-card">
+              <div class="modulo-icone">
+                <img
+                  src="/assets/506C8969-9FF7-4EB0-B6D5-C2527B602C30_4_5005_c.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="modulo-titulo">Síndrome da Impostora</div>
+            </div>
+            <div class="modulo-card">
+              <div class="modulo-icone">
+                <img
+                  src="/assets/FD4556FC-B035-4563-9EC1-6A8184729E6B.png"
+                  alt=""
+                />
+              </div>
+              <div class="modulo-titulo">Vencendo a dependência emocional</div>
+            </div>
+            <div class="modulo-card">
+              <div class="modulo-icone">
+                <img
+                  src="/assets/A804F204-7D98-4949-963F-E0E14CF5D5A9.png"
+                  alt=""
+                />
+              </div>
+              <div class="modulo-titulo">
+                O que fazer para me sentir bem comigo mesma?
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-bonus">
+        <div class="bonus-card">
+          <h2 class="bonus-titulo">+Bônus que aceleram seu resultado</h2>
+          <p class="bonus-desc">
+            Ao fazer sua inscrição no método <b>Desatando Nós</b> você
+            <b>GANHA bônus únicos de presente:</b><br />
+            <span class="bonus-destaque">E-book Autoestima saudável</span> +
+            <span class="bonus-destaque"
+              >Aulas para desenvolver maturidade emocional</span
+            >
+          </p>
+          <button class="bonus-btn">Quero Participar</button>
+        </div>
+        <div class="bonus-whatsapp">
+          <h3>Grupo de alunas<br />no WhatsApp</h3>
+          <div class="bonus-whats-box">
+            <span class="bonus-whats-title">VOCÊ NÃO ESTARÁ SOZINHA!</span>
+            <p>
+              Ao se inscrever, você será adicionada ao nosso grupo de WhatsApp,
+              onde estarei disponível para oferecer suporte e orientação em sua
+              jornada de autodescoberta e crescimento emocional.
+            </p>
+          </div>
+          <button class="bonus-btn2">Quero mudar minha história</button>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
   </body>
 </html>
