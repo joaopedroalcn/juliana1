@@ -1,3 +1,239 @@
+/* ====== SECTION APRESENTAÇÃO E OFERTA ====== */
+.section-apresentacao {
+  background: #fff6f1;
+  position: relative;
+  padding: 0 0 4rem 0;
+  overflow: hidden;
+}
+.apresentacao-bg {
+  background: #fff6f1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 420px;
+  z-index: 0;
+}
+.apresentacao-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  padding-top: 2.5rem;
+}
+.apresentacao-info {
+  flex: 1 1 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  min-width: 320px;
+  align-items: flex-start;
+}
+.apresentacao-nome {
+  font-family: "Dancing Script", cursive, sans-serif;
+  font-size: 3.2rem;
+  color: #f9906a;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  line-height: 1.1;
+}
+.apresentacao-desc-card {
+  background: #ffad7f;
+  color: #fff;
+  border-radius: 16px;
+  padding: 1.2rem 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 0.7rem;
+  margin-top: 0.7rem;
+  box-shadow: 0 2px 12px 0 rgba(255, 173, 127, 0.1);
+  max-width: 420px;
+}
+.apresentacao-assinatura {
+  width: 120px;
+  margin: 1.2rem 0 0.7rem 0;
+  display: block;
+}
+.apresentacao-btn {
+  background: linear-gradient(90deg, #05e982 0%, #43aadc 100%);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 2.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  transition: filter 0.2s;
+}
+.apresentacao-btn:hover {
+  filter: brightness(0.95);
+}
+.apresentacao-img-wrapper {
+  min-width: 320px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.apresentacao-img {
+  width: 340px;
+  max-width: 38vw;
+  border-radius: 0 0 40px 40px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.1);
+}
+.apresentacao-oferta-card {
+  background: #fff;
+  border-radius: 32px;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.1);
+  padding: 2.2rem 2.5rem 2.2rem 2.5rem;
+  max-width: 420px;
+  width: 95vw;
+  margin: -3.5rem auto 0 auto;
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+.oferta-topo {
+  color: #222;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.oferta-preco-antigo {
+  color: #e04d38;
+  font-size: 1.1rem;
+  text-align: center;
+  text-decoration: line-through;
+  margin-bottom: 0.2rem;
+}
+.oferta-preco-antigo span {
+  text-decoration: line-through;
+}
+.oferta-preco-novo {
+  color: #222;
+  font-size: 2.6rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+.oferta-preco-novo span {
+  font-size: 2.6rem;
+  color: #222;
+  font-weight: 700;
+}
+.oferta-limite {
+  color: #e04d38;
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.oferta-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 0.7rem auto;
+  color: #e04d38;
+  font-size: 1.08rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  max-width: 340px;
+}
+.oferta-lista li {
+  text-align: left;
+  color: #a85a3a;
+  font-size: 1.08rem;
+  position: relative;
+  padding-left: 2.2rem;
+}
+.oferta-icon {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: #ff7c4d;
+}
+.oferta-btn {
+  background: linear-gradient(90deg, #05e982 0%, #43aadc 100%);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 2.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  transition: filter 0.2s;
+}
+.oferta-btn:hover {
+  filter: brightness(0.95);
+}
+.oferta-seguro {
+  color: #222;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 0.7rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.oferta-seguro-icon {
+  font-size: 1.2rem;
+}
+@media (max-width: 900px) {
+  .apresentacao-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .apresentacao-img-wrapper {
+    justify-content: center;
+    min-width: 0;
+  }
+  .apresentacao-img {
+    width: 220px;
+    max-width: 60vw;
+  }
+}
+@media (max-width: 600px) {
+  .section-apresentacao {
+    padding: 0 0 2rem 0;
+  }
+  .apresentacao-nome {
+    font-size: 2rem;
+  }
+  .apresentacao-desc-card {
+    font-size: 0.98rem;
+    padding: 0.7rem 0.7rem;
+    max-width: 98vw;
+  }
+  .apresentacao-oferta-card {
+    padding: 1.2rem 0.7rem 1.2rem 0.7rem;
+    max-width: 98vw;
+  }
+  .oferta-preco-novo,
+  .oferta-preco-novo span {
+    font-size: 1.7rem;
+  }
+}
 /* ====== SECTION BÔNUS ====== */
 .section-bonus {
   background: #fff6f1;
@@ -20,6 +256,7 @@
   flex-direction: column;
   align-items: center;
   gap: 1.2rem;
+  z-index: 999;
 }
 .bonus-titulo {
   color: #ff7c4d;
@@ -68,6 +305,7 @@
   flex-direction: column;
   align-items: center;
   gap: 1.2rem;
+  z-index: 999;
 }
 .bonus-whatsapp h3 {
   color: #fff;
@@ -885,4 +1123,113 @@ header img {
   justify-content: center;
   margin: 0 auto;
   margin-top: -2rem;
+}
+
+.guarantee-section {
+  padding: 48px 16px 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  max-width: var(--maxw);
+  margin: 0 auto;
+}
+
+/* Cabeçalho centralizado */
+.guarantee-top h1 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 28px;
+  line-height: 1.05;
+  color: #28302d;
+  margin: 0 0 28px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+/* Área principal com selo + texto */
+.guarantee-content {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(10, 10, 10, 0.06);
+}
+
+/* Selo */
+.badge {
+  flex: 0 0 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+.badge img {
+  width: 140px;
+  height: auto;
+  display: block;
+}
+
+/* Texto ao lado do selo */
+.guarantee-text {
+  flex: 1;
+  min-width: 0;
+}
+.lead {
+  font-size: 1.8rem;
+  margin: 0 0 12px;
+  color: #3c3d3a;
+}
+.lead strong {
+  font-weight: 700;
+}
+.small {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+/* Título FAQ */
+.faq-title {
+  text-align: center;
+  color: var(--accent);
+  font-family: "Montserrat", sans-serif;
+  margin: 36px 0 18px;
+  font-size: 28px;
+}
+
+/* Lista de FAQ */
+.faq {
+  background: transparent;
+  border-radius: 8px;
+  padding: 8px 12px 24px;
+}
+.faq-item {
+  margin-bottom: 18px;
+}
+.q {
+  margin: 0 0 8px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #2f2f2f;
+}
+.a {
+  margin: 0;
+  font-size: 13.5px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+/* Footer pequeno */
+.small-footer {
+  text-align: center;
+  margin-top: 26px;
+  font-size: 11px;
+  color: #8b7f79;
 }
