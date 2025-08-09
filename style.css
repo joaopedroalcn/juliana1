@@ -1041,9 +1041,8 @@ header img {
   }
 
   header img {
-    width: 80vw;
+    width: 100vw;
     margin: 0;
-    margin-left: -6rem;
     display: block;
     margin: auto;
   }
@@ -1208,5 +1207,11 @@ header img {
     width: 90vw;
     max-width: 100%;
     margin: 0 auto;
+  }
+
+  .section-dependencia-card {
+    padding: 0;
+    width: 100vw;
+    max-width: 100%;
   }
 }
