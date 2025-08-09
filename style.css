@@ -198,42 +198,7 @@
 .oferta-seguro-icon {
   font-size: 1.2rem;
 }
-@media (max-width: 900px) {
-  .apresentacao-content {
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-  }
-  .apresentacao-img-wrapper {
-    justify-content: center;
-    min-width: 0;
-  }
-  .apresentacao-img {
-    width: 220px;
-    max-width: 60vw;
-  }
-}
-@media (max-width: 600px) {
-  .section-apresentacao {
-    padding: 0 0 2rem 0;
-  }
-  .apresentacao-nome {
-    font-size: 2rem;
-  }
-  .apresentacao-desc-card {
-    font-size: 0.98rem;
-    padding: 0.7rem 0.7rem;
-    max-width: 98vw;
-  }
-  .apresentacao-oferta-card {
-    padding: 1.2rem 0.7rem 1.2rem 0.7rem;
-    max-width: 98vw;
-  }
-  .oferta-preco-novo,
-  .oferta-preco-novo span {
-    font-size: 1.7rem;
-  }
-}
+
 /* ====== SECTION BÔNUS ====== */
 .section-bonus {
   background: #fff6f1;
@@ -352,29 +317,7 @@
 .bonus-btn2:hover {
   filter: brightness(0.95);
 }
-@media (max-width: 900px) {
-  .section-bonus {
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-  }
-}
-@media (max-width: 600px) {
-  .section-bonus {
-    padding: 2rem 0 2rem 0;
-  }
-  .bonus-card,
-  .bonus-whatsapp {
-    padding: 1.2rem 0.7rem 1.2rem 0.7rem;
-    max-width: 98vw;
-  }
-  .bonus-titulo {
-    font-size: 1.1rem;
-  }
-  .bonus-whatsapp h3 {
-    font-size: 1rem;
-  }
-}
+
 /* ====== SECTION APRENDER E MÓDULOS ====== */
 .section-aprender {
   background: linear-gradient(180deg, #fff6f1 60%, #ffad7f 100%);
@@ -468,44 +411,7 @@
   font-weight: 500;
   text-align: center;
 }
-@media (max-width: 900px) {
-  .aprender-modulos-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.1rem;
-  }
-}
-@media (max-width: 600px) {
-  .section-aprender {
-    padding: 2.2rem 0 0 0;
-  }
-  .aprender-titulo {
-    font-size: 1.2rem;
-  }
-  .aprender-modulos-bg {
-    padding: 1.2rem 0 2rem 0;
-    border-radius: 0 0 18px 18px;
-    margin-top: 2rem;
-  }
-  .aprender-modulos-titulo {
-    font-size: 1.1rem;
-    margin-bottom: 1.2rem;
-  }
-  .aprender-modulos-grid {
-    grid-template-columns: 1fr;
-    gap: 0.7rem;
-  }
-  .modulo-card {
-    padding: 0.7rem 0.5rem 0.7rem 0.5rem;
-    min-height: 80px;
-  }
-  .modulo-icone img {
-    width: 28px;
-    height: 28px;
-  }
-  .modulo-titulo {
-    font-size: 0.92rem;
-  }
-}
+
 /* ====== SECTION MÉTODO DESATANDO NÓS ====== */
 .section-metodo {
   background: #ffad7f;
@@ -644,43 +550,7 @@
   object-fit: cover;
   margin-bottom: 0.5rem;
 }
-@media (max-width: 900px) {
-  .metodo-content {
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-  }
-  .metodo-img-wrapper {
-    justify-content: center;
-    min-width: 0;
-  }
-  .metodo-img-pessoa {
-    width: 220px;
-    max-width: 60vw;
-  }
-}
-@media (max-width: 600px) {
-  .section-metodo {
-    padding: 2.2rem 0 1.2rem 0;
-    min-height: 0;
-  }
-  .metodo-titulo {
-    font-size: 1.5rem;
-  }
-  .metodo-titulo-nos {
-    font-size: 2.1rem;
-  }
-  .metodo-img-pessoa {
-    width: 120px;
-    max-width: 80vw;
-  }
-  .metodo-paraquem h3 {
-    font-size: 1.1rem;
-  }
-  .metodo-paraquem ul {
-    font-size: 0.98rem;
-  }
-}
+
 /* ====== SECTION DEPOIMENTO ====== */
 .section-depoimento {
   background: #faf0e9;
@@ -792,73 +662,7 @@
   z-index: 1;
   pointer-events: none;
 }
-@media (max-width: 900px) {
-  .depoimento-conteudo {
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-  }
-  .depoimento-imagens {
-    flex-direction: row;
-    align-items: flex-end;
-    gap: 1.2rem;
-    min-width: 0;
-  }
-  .depoimento-img-pessoa {
-    width: 180px;
-    max-width: 48vw;
-  }
-  .depoimento-img-pessoa2 {
-    width: 80px;
-    max-width: 28vw;
-  }
-}
-@media (max-width: 600px) {
-  .section-depoimento {
-    padding: 2.2rem 0 1.2rem 0;
-    min-height: 0;
-  }
-  .depoimento-balao-top {
-    font-size: 0.98rem;
-    padding: 0.7rem 0.7rem;
-    max-width: 98vw;
-  }
-  .depoimento-balao,
-  .depoimento-balao-meio,
-  .depoimento-balao-baixo {
-    font-size: 0.98rem;
-    padding: 0.7rem 0.7rem;
-    max-width: 98vw;
-  }
-  .depoimento-titulo {
-    font-size: 1.2rem;
-  }
-  .depoimento-img-pessoa {
-    width: 120px;
-    max-width: 60vw;
-  }
-  .depoimento-img-pessoa2 {
-    width: 60px;
-    max-width: 32vw;
-  }
-  .depoimento-linha {
-    height: 32px;
-  }
-  .depoimento-mobile-hide {
-    display: none !important;
-  }
-  .depoimento-mobile-show {
-    display: block !important;
-  }
-}
-@media (min-width: 601px) {
-  .depoimento-mobile-hide {
-    display: block !important;
-  }
-  .depoimento-mobile-show {
-    display: none !important;
-  }
-}
+
 /* ====== SECTION DEPENDENCIA (CARD DIAGNÓSTICO) ====== */
 .section-dependencia {
   background: #21796b;
@@ -931,19 +735,7 @@
   transform: translateY(-50%);
   font-size: 1.2rem;
 }
-@media (max-width: 600px) {
-  .section-dependencia-card {
-    padding: 1.2rem 0.2rem 1.2rem 0.2rem;
-    max-width: 98vw;
-  }
-  .section-dependencia-title h2 {
-    font-size: 1.1rem;
-  }
-  .section-dependencia-list li {
-    font-size: 0.98rem;
-    padding: 0.7rem 0.5rem 0.7rem 2.2rem;
-  }
-}
+
 .faixa-laranja {
   background-color: #f9906a;
   padding: 5px;
@@ -1232,4 +1024,189 @@ header img {
   margin-top: 26px;
   font-size: 11px;
   color: #8b7f79;
+}
+
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .container-texto-laranja {
+    width: 80vw;
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  header img {
+    width: 80vw;
+    margin: 0;
+    margin-left: -6rem;
+    display: block;
+    margin: auto;
+  }
+
+  .container-background-branco {
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: 80vw;
+  }
+
+  .faixa-laranja {
+    width: 100%;
+    padding: 3px;
+  }
+
+  .container-grid-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+  }
+
+  .container-section2 {
+    margin: 0 auto;
+  }
+
+  .container-section2 h2 {
+    font-size: 2rem;
+  }
+
+  .container-section2 img {
+    width: 90vw;
+  }
+
+  .container-button {
+    width: 90vw;
+  }
+
+  .container-button button {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .container-section3 img {
+    width: 100vw;
+  }
+
+  .section-depoimento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90vw;
+  }
+
+  .depoimento-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .depoimento-balao-top {
+    position: inherit;
+  }
+
+  .depoimento-balao-baixo {
+    margin-top: -8rem;
+  }
+
+  .depoimento-img-pessoa {
+    width: 90vw;
+    max-width: 100%;
+  }
+
+  .section-metodo {
+    margin: 0 auto;
+    width: 100vw;
+    padding: 1rem 0;
+  }
+
+  .metodo-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .metodo-img-pessoa {
+    width: 90vw;
+    max-width: 100%;
+  }
+
+  .metodo-info img {
+    width: 90vw;
+    margin: 0 auto;
+  }
+
+  .aprender-modulos-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 90vw;
+    margin: 0 auto;
+  }
+
+  .apresentacao-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.5rem;
+    max-width: 90vw;
+    margin: 0 auto;
+    padding-top: 1rem;
+  }
+
+  .apresentacao-info {
+    flex: 1;
+    align-items: center;
+    padding-top: 5rem;
+  }
+
+  .apresentacao-img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+  .apresentacao-img {
+    width: 100vw;
+    max-width: 100%;
+    box-shadow: none;
+  }
+
+  .apresentacao-oferta-card {
+    width: inherit;
+    max-width: 100%;
+  }
+
+  .section-apresentacao {
+    padding: 0;
+  }
+
+  .guarantee-section {
+    padding: 0;
+    padding-top: 3rem;
+  }
+
+  .guarantee-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .metodo-info {
+    width: 90vw;
+  }
+
+  .aprender-topo {
+    width: 90vw;
+    max-width: 100%;
+    margin: 0 auto;
+  }
 }
