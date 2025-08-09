@@ -1051,7 +1051,7 @@ header img {
     margin: 0 auto;
     margin-top: 3rem;
     width: 80vw;
-    text-align: justify;
+    text-align: center;
   }
 
   .faixa-laranja {
@@ -1221,7 +1221,13 @@ header img {
     max-width: 90vw;
   }
 
+  .container-texto-laranja {
+    margin: 0 auto;
+    width: 100vw;
+    text-align: center;
+  }
+
   .container-texto-laranja p {
-    text-align: justify;
+    text-align: center;
   }
 }
