@@ -400,8 +400,8 @@
   min-width: 0;
 }
 .modulo-icone img {
-  width: 38px;
-  height: 38px;
+  width: 48px;
+  height: 48px;
   object-fit: contain;
   margin-bottom: 0.2rem;
 }
@@ -621,6 +621,10 @@
   margin-top: 1.2rem;
   background: #ff7c4d;
   color: #fff;
+}
+
+.depoimento-mobile-show{
+  display: none;
 }
 .depoimento-balao-baixo {
   background: #ff7c4d;
@@ -1230,4 +1234,27 @@ header img {
   .container-texto-laranja p {
     text-align: center;
   }
+
+  .depoimento-mobile-show{
+  display: block;
+}
+
+.depoimento-mobile-hide{
+  display: none;
+}
+
+.depoimento-conteudo{
+  gap: 0;
+}
+
+.modulo-icone img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: 0.2rem;
+}
+
+.container-section3 h2{
+  font-size: 1.5rem;
+}
 }
