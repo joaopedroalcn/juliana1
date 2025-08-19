@@ -5,6 +5,8 @@
   padding: 0 0 4rem 0;
   overflow: hidden;
 }
+
+
 .apresentacao-bg {
   background: #fff6f1;
   position: absolute;
@@ -1257,4 +1259,9 @@ header img {
 .container-section3 h2{
   font-size: 1.5rem;
 }
+}
+
+
+.price-pequeno {
+  font-size: 1.5rem;
 }
